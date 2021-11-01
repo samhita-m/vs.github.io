@@ -1,0 +1,9 @@
+@inproceedings{semtrack-2021,
+  title = {Test title},
+  author = {Author1$^\ast$ and Author1$^\ast$ and Author1$^\ast$ and Author1},
+  booktitle = {Test},
+  year = {2021},
+  note = {$^\ast$ equal contribution},
+}# Paper website
+
+
