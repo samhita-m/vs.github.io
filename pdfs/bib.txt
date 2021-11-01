@@ -1,4 +1,4 @@
-@inproceedings{semtrack-2021,
+@inproceedings{test-2021,
   title = {Test title},
   author = {Author1$^\ast$ and Author1$^\ast$ and Author1$^\ast$ and Author1},
   booktitle = {Test},
