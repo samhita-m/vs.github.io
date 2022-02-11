@@ -13,29 +13,35 @@
   <body>
   	<div style="text-align:center;">
 	    <div id="intro" style="width: 100%; padding:40px; text-align:center;">
-	    <h1>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</h1>
+	    <h1>Visual Servoing for Pose Control of Soft Continuum Arm in a Structured Environment</h1>
 	    </div>
 
 	    <div class="container">
 		  <div class="row">
 		    <div class="col-sm">
-		      <a href=""><h4> Author1 </h4></a>    
+		      <a href="https://shivanikamtikar.github.io/"><h4> Shivani Kamtikar <sup>1</sup></h4></a>    
 		    </div>
 		    <div class="col-sm">
-		      <a href=""><h4> Author2 </h4></a> 
+		      <a href="https://www.samhitamarri.com/"><h4> Samhita Marri <sup>2</sup></h4></a> 
 		    </div>
 		    <div class="col-sm">
-		      <a href=""><h4> Author3 </h4></a> 
+		      <a href="https://walt.web.illinois.edu/"><h4> Benjamin Walt <sup>3</sup></h4></a> 
 		    </div>
 		    <div class="col-sm">
-		      <a href=""><h4> Author4 </h4></a> 
+		      <a href=""><h4> Naveen Kumar Uppalapati<sup>4</sup> </h4></a> 
+		    </div>
+		    <div class="col-sm">
+		      <a href="https://ise.illinois.edu/directory/profile/gkrishna"><h4> Girish Krishnan<sup>3</sup> </h4></a> 
+		    </div>
+		    <div class="col-sm">
+		      <a href="http://daslab.illinois.edu/index.html#girish"><h4> Girish Chowdhary <sup>1, 4</sup></h4></a> 
 		    </div>
 		  </div>
 		  <p></p>
 
 		  <div class="row">
 		  	<div class="col-lg">
-		   	<h4> University of Illinois at Urbana-Champaign (UIUC) </h4>
+			<h4> <sup>1</sup> Computer Science, <sup>2</sup> Electrical and Computer Engineering, <sup>3</sup> Mechanical Science and Engineering, <sup>4</sup> Coordinated Science Laboratory, University of Illinois at Urbana Champaign (UIUC) </h4>
 		  </div>
 	    </div>
 
@@ -48,7 +54,7 @@
 	    <div class="row">
 		  <div class="col-lg">
 		    <center><h2><strong>
-		    <a href="./pdfs/test.pdf">Paper</a> |
+		    <a href="./pdfs/paper.pdf">Paper</a> |
 	            <a href="./pdfs/bib.txt">Bibtex</a> |
                     <a href="">Code</a> </strong></h2></center> 
 		  </div>
@@ -71,7 +77,7 @@
 
 	    <div class="row">
 	  	<div style="font-size:16px"><p align="justify">
-	  		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	  		For soft continuum arms, visual servoing is a popular control strategy that relies on visual feedback to close the control loop. However, robust visual servoing is challenging as it requires reliable feature extraction from the image, accurate control models and sensors to perceive the shape of the arm, both of which can be hard to implement in a soft robot. This letter circumvents these challenges by presenting a deep neural network-based method to perform smooth and robust 3D positioning tasks on a soft arm by visual servoing using a camera mounted at the distal end of the arm. A convolutional neural network is trained to predict the actuations required to achieve the desired pose in a structured environment. Integrated and modular approaches for estimating the actuations from the image are proposed and are experimentally compared. A proportional control law is implemented to reduce the error between the desired and current image as seen by the camera. The model together with the proportional feedback control makes the described approach robust to several variations such as new targets, lighting, loads, and diminution of the soft arm. Furthermore, the model lends itself to be transferred to a new environment with minimal effort.
 	  	</p>
 	  	</div>
             </div>
@@ -93,12 +99,11 @@
 	  	<div class="col-sm">
 	  		<h2> Citation </h2>
 	  		    <pre align="left">
-				@inproceedings{test-2021,
-				  title = {Test title},
-				  author = {Author1$^\ast$ and Author1$^\ast$ and Author1$^\ast$ and Author1},
-				  booktitle = {Test},
-				  year = {2021},
-				  note = {$^\ast$ equal contribution},
+				@inproceedings{RoboSoft-2022,
+				  title = {Visual Servoing for Pose Control of Soft Continuum Arm in a Structured Environment},
+				  author = {Shivani Kamtikar, Samhita Marri, Benjamin Walt, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary},
+				  booktitle = {RoboSoft},
+				  year = {2022},
 				}
                             </pre>
 		</div>
