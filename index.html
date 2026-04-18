@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Visual Servoing for Pose Control of Soft Continuum Arm in a Structured Environment">
+  <meta name="keywords" content="Soft Arm, Pose Control, Visual Servoing">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visual Servoing for Pose Control of Soft Continuum Arm in a Structured Environment</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Visual Servoing for Pose Control of Soft Continuum Arm in a Structured Environment</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://shivanikamtikar.github.io/">Shivani Kamtikar</a>,
+            </span>  
+            <span class="author-block">
+              <a href="https://www.samhitamarri.com/">Samhita Marri</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://walt.web.illinois.edu/">Benjamin Walt</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=YmEbBGAAAAAJ&hl=en">Naveen Kumar Uppalapati</a>,
+            </span>
+            <br>
+            <span class="author-block">
+              <a href="https://ise.illinois.edu/directory/profile/gkrishna">Girish Krishnan</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://ece.illinois.edu/about/directory/faculty/girishc">Girish Chowdhary</a>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">University of Illinois at Urbana Champaign (UIUC)</span><br>
+            <span class="author-block"><em>IEEE RA-L & IEEE RoboSoft 2022</em></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://ieeexplore.ieee.org/document/9726901"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+             
+             
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/samhita-m/visual_servoing_soft_arm"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Supplementary Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2202.05200"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/workflow.png"
+                 class="interpolation-image"
+                 alt="Interpolate start reference image."/>
+      <h2 class="subtitle has-text-centered">
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            For soft continuum arms, visual servoing is a popular control strategy that relies on visual feedback to close the control loop. 
+            However, robust visual servoing is challenging as it requires reliable feature extraction from the image, accurate control models and sensors to perceive the shape of the arm, both of which can be hard to implement in a soft robot. 
+            This letter circumvents these challenges by presenting a deep neural network-based method to perform smooth and robust 3D positioning tasks on a soft arm by visual servoing using a camera mounted at the distal end of the arm. 
+            A convolutional neural network is trained to predict the actuations required to achieve the desired pose in a structured environment. 
+            Integrated and modular approaches for estimating the actuations from the image are proposed and are experimentally compared. 
+            A proportional control law is implemented to reduce the error between the desired and current image as seen by the camera. 
+            The model together with the proportional feedback control makes the described approach robust to several variations such as new targets, lighting, loads, and diminution of the soft arm. 
+            Furthermore, the model lends itself to be transferred to a new environment with minimal effort.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Abstract. -->
+
+    <!-- Pipeline. -->
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <img src="./static/images/VS_SCA_exp_setup_v4.png"
+                   class="interpolation-image"
+                   alt="Interpolate start reference image."/>
+        <h2 class="subtitle has-text-centered">
+        </h2>
+      </div>
+    </div>
+    <!-- Pipeline. -->
+   
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Demo Video</h2>
+        <div class="publication-video">
+          <video controls id="demo" height="100%">
+            <source src="./static/videos/demo.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @article{kamtikar2022visual,
+        title={Visual servoing for pose control of soft continuum arm in a structured environment},
+        author={Kamtikar, Shivani and Marri, Samhita and Walt, Benjamin and Uppalapati, Naveen Kumar and Krishnan, Girish and Chowdhary, Girish},
+        journal={IEEE Robotics and Automation Letters},
+        volume={7},
+        number={2},
+        pages={5504--5511},
+        year={2022},
+        publisher={IEEE}
+      }
+  </code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p style="text-align: center;">
+            Website borrowed from <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> :)
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

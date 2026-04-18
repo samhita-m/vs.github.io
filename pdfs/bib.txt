@@ -1,7 +1,0 @@
-@inproceedings{RoboSoft-2022,
-  title = {Visual Servoing for Pose Control of Soft Continuum Arm in a Structured Environment},
-  author = {Shivani Kamtikar, Samhita Marri, Benjamin Walt, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary},
-  booktitle = {RoboSoft},
-  year = {2022},
-}
-
